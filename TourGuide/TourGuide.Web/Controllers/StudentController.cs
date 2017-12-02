@@ -39,5 +39,10 @@ namespace TourGuide.Web.Controllers
         {
             return "x + y = " + x + y;
         }
+
+        public Action course()
+        {
+            return view();
+        }
     }
 }
