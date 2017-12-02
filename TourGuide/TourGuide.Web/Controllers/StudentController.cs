@@ -16,10 +16,10 @@ namespace TourGuide.Web.Controllers
         }
 
         // GET api/<controller>/5
-        public string Get(int id)
-        {
-            return "value";
-        }
+        //public string Get(int id)
+        //{
+        //    return "value";
+        //}
 
         // POST api/<controller>
         public void Post([FromBody]string value)
@@ -34,6 +34,11 @@ namespace TourGuide.Web.Controllers
         // DELETE api/<controller>/5
         public void Delete(int id)
         {
+        }
+
+        public string Index()
+        {
+            return "Hello World!";
         }
     }
 }
