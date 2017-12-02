@@ -35,9 +35,9 @@ namespace TourGuide.Web.Controllers
             return "Hello World!";
         }
 
-        public int Sum(int a, int b)
+        public int Sum(int x, int y)
         {
-            return a + b;
+            return "x + y = " + x + y;
         }
     }
 }
