@@ -15,12 +15,6 @@ namespace TourGuide.Web.Controllers
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/<controller>/5
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
-
         // POST api/<controller>
         public void Post([FromBody]string value)
         {
@@ -39,6 +33,11 @@ namespace TourGuide.Web.Controllers
         public string Index()
         {
             return "Hello World!";
+        }
+
+        public int Sum(int a, int b)
+        {
+            return a + b;
         }
     }
 }
